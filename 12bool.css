@@ -108,6 +108,12 @@
 
 /**************************************Utility************************************/
 
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+}
+
 .center{
     display: flex;
     justify-content: center;
